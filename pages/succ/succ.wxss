@@ -1,0 +1,41 @@
+/* pages/mine/mine.wxss */
+page{
+  background: #fff;
+  font-size: 16px
+}
+.userinfo-a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vip_bg{
+  position: relative;
+}
+.vip_list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px	#E6E6FA solid;
+}
+.my_list{
+  margin: 20px 30px;
+}
+.left {
+  font-family: "黑体";
+  color: #888;
+  margin: 20px;
+}
+.right {
+  font-family: "楷体";
+  color: #888;
+  margin: 20px;
+}
+.succ_but{
+  background: #1ac14a;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  color: #fff;
+}

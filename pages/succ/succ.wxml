@@ -1,0 +1,33 @@
+<view>
+  <view class='userinfo-a'>
+    <view class='vip_bg'>
+      <image class='userinfo-avatar' src='{{avatarUrl}}'></image>
+     <view class='vip_bgimg'>
+      <image src='{{avatarUrl_vip}}' class='vip_bgimg_i'></image>
+     </view>
+    </view>
+  </view>
+  <view class='userinfo'>
+    <text style='color:#888;'>{{nickName}}</text>
+  </view>
+  <view class='my_list'>
+    <view class='vip_list'>
+      <text class='left'>{{my_recharge}}</text>
+      <text class='right'>{{my_recharge_btn}}</text>
+    </view>
+    <view class='vip_list'>
+      <text class='left'>{{my_consumption}}</text>
+      <text class='right'>{{my_consumption_btn}}</text>
+    </view>
+     <view class='vip_list'>
+      <text class='left'>{{my_balance}}</text>
+      <text class='right'>{{my_money}}</text>
+    </view>
+  </view>
+<view class='userinfo'>
+  <button bindtap='succ_but' class='succ_but'>完成</button>
+</view>
+  <view class='copyright' style='color:#000;'>
+    <text>{{copyright}}</text>
+  </view>
+ </view>

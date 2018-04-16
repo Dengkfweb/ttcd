@@ -1,0 +1,13 @@
+/* pages/refund/refund.wxss */
+page{
+  background: #fff;
+  
+  font-size: 22px;
+  
+} 
+.refund{
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

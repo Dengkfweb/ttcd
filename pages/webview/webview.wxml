@@ -1,0 +1,2 @@
+<!--pages/webview/webview.wxml-->
+<web-view src="https://t.cd1a.cn/Course.html"></web-view>

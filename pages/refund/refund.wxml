@@ -1,0 +1,15 @@
+<!--pages/refund/refund.wxml-->
+<view class='refund'>
+  <text class='refund'>
+    退款已发起，请耐心等待！
+    会员退款将原账户返回。
+  </text>
+<image style='width:191px;height:189px;' src='http://www.ihuanmei.com/image/timg.jpg'></image>
+  
+</view>
+<view class='charge' style='color:#000;'>
+  <text class='vip_c' style='color:red;'>{{vip}}</text>
+  <text class='vip_one'>{{vip_one}}</text>
+  <text class='vip_one'>{{vip_two}}</text>
+  <text class='vip_one'>{{vip_three}}</text>
+</view>

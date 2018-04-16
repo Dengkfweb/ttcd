@@ -1,0 +1,29 @@
+/* pages/homepage/homepage.wxss */
+page{
+  background: -webkit-linear-gradient(#0cc1b8, #27c594); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#0cc1b8, #27c594); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#0cc1b8, #27c594); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#0cc1b8, #27c594); /* 标准的语法（必须放在最后） */
+}
+.log_img{
+  width: 150px;
+  height: 43px;
+  padding: 30px;
+}
+.ddclog_img{
+  width: 230px;
+  height: 230px;
+   opacity: 0.5;
+}
+.dj_log{
+  width: 120px;
+  height: 150px;
+  margin-top: -105px;
+ 
+}
+.gr_button{
+  background: #fff;
+  padding: 0 60px;
+  color: #0cc1b8;
+  border-radius: 30px;
+}

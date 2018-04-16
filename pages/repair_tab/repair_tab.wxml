@@ -1,0 +1,53 @@
+<!-- <view>
+
+<form bindsubmit="bindFormSubmit">
+  <radio-group class="radio-group" bindchange="radioChange" name="bright">
+    <label class="radio" wx:for="{{items}}">
+        <radio value="{{item.value_name}}" checked="{{item.checked}}"/>{{item.value}}
+    </label>
+    
+      <textarea class='remarks' placeholder="无法正常使用原因描述" name="textarea"/>
+      <label class="radio">
+        <label>联系电话</label>
+        <input class='remarks_phone' name='phone' type='number' value="" placeholder='请输入您的电话'/>
+      </label>
+      <button class='remarks_submit' form-type="submit"> 提交 </button>
+  </radio-group>
+</form> 
+</view> -->
+ <view id="adduser">
+    <form bindsubmit="formSubmit" bindreset="formReset">
+        <view class="section section_gap">
+            <view class='form-group radio'>
+                <radio-group name="bright">
+                  <label class='radio'><radio checked="true" value="插排指示灯不亮"/>插排指示灯不亮</label>
+                  <label class='radio'><radio value="插排指示灯正常插排没电"/>插排指示灯正常插排没电</label>
+                  <label class='radio'><radio value="其他"/>其他</label>
+                </radio-group>
+            </view>    
+        </view>
+        <view class="section section_gap">
+           <textarea class='remarks' placeholder="无法正常使用原因描述" name="textarea"/>
+        </view>
+        
+        <view class="section section_gap radio">
+            <label>联系电话:</label>
+            <input class='remarks_phone' name='phone' type='number' value="" placeholder='请输入您的电话'/>
+        </view>
+        <view class="section btn-area">
+            <button class='remarks_submit' formType="submit">提交</button>
+        </view>
+    </form>
+
+
+    <toast hidden="{{toast1Hidden}}" bindchange="toast1Change">
+        {{notice_str}}
+    </toast>
+
+    <view class="page__bd">
+        <modal title="确认" confirm-text="确定" cancel-text="取消" hidden="{{modalHidden}}" mask bindconfirm="confirm_one" bindcancel="cancel_one">
+            确认提交么？
+        </modal>
+    </view>
+
+</view>     

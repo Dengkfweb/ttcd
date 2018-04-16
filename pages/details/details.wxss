@@ -1,0 +1,56 @@
+/* pages/details/details.wxss */
+page{
+  background: #fff;
+}
+.details_list{
+  font-family: "微软雅黑";
+  padding-top: 15rpx;
+  margin: 0 auto;
+   width: 660rpx; 
+   border-bottom: 1px solid #F0F0F0;
+}
+.lists_nei{
+  width: 700rpx;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 15rpx;
+  border-bottom: 1px solid #F0F0F0;
+}
+.success{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 30rpx;
+  padding-bottom: 15rpx;
+}
+.submit{
+   width: 100%; 
+  float: left;
+  text-align: left;
+}
+.paymentMoney{
+  text-align: right;
+  width: 100%;
+  color: #DD3522; 
+  line-height: 
+}
+.source{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 27rpx; 
+  padding-bottom: 15rpx;
+  color: #847B7B;
+}
+.paymentTime{
+  width: 100%; 
+  float: left;
+  text-align: left;
+}
+.paymentSource{
+  text-align: right;
+  width: 100%;
+  color: #847B7B; 
+}

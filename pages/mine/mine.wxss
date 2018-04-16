@@ -1,0 +1,50 @@
+/* pages/mine/mine.wxss */
+page{
+  background: #fff;
+  font-size: 18px
+}
+.userinfo-a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vip_bg{
+  position: relative;
+}
+.vip_list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px	#E6E6FA solid;
+}
+.my_list{
+  margin: 20px 30px;
+}
+.money_m{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.left {
+  
+  font-family: "黑体";
+  color: #888;
+  margin: 10px;
+}
+.right {
+  font-family: "楷体";
+  color: #888;
+  margin: 20px;
+}
+.agreement{
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 25px;
+  color: #ccc;
+}
+.btn_money{
+  width: 100%;
+  margin: 15px;
+}

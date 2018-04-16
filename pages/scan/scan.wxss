@@ -1,0 +1,34 @@
+/* pages/scan/scan.wxss */
+page{
+  height: 100%
+}
+.bg_index{
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(left bottom, #12c0b2 , #26c294); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(top right, #12c0b2, #26c294); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(top right, #12c0b2, #26c294); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to top right, #12c0b2 , #26c294); /* 标准的语法（必须放在最后） */
+}
+.vip_c{
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.dew{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dew_1{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.dew_right{
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 22px;
+  float: right;
+  padding: 5px;
+}

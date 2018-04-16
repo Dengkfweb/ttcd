@@ -1,0 +1,44 @@
+<view class="bg_index">
+  <view class='userinfo'>
+    <view class='vip_bg'>
+      <image class='userinfo-avatar' src='{{HeadPortrait}}'></image>
+     <view class='vip_bgimg'>
+      <image src='http://www.ihuanmei.com/image/vip_bg.png' class='vip_bgimg_i'></image>
+     </view>
+    </view>
+  </view>
+  <view class='userinfo'>
+    <text>{{nickName}}</text>
+  </view>
+  
+  <view class='charge_btn' wx:for="{{vip_list}}" wx:for-index="index" wx:for-item="item">
+    <!-- <button bindtap='Fast_charge'class='text_charge' id='{{charge_one_a}}'>{{charge_one}}</button>
+    <button bindtap='Second_charge' class='text_charge' id='{{charge_two_a}}'>{{charge_two}}</button> -->
+    <button bindtap='Third_charge' style='background:{{item.back_bg}};color:{{item.col_co}};' class='text_charge' id='{{item.charge_three_a}}'>{{item.charge_three}}</button>
+    <!-- 测试按钮 -->
+
+     
+    <!-- <button bindtap='Fourd_charge' class='text_charge' id='{{0}}'>{{charge_four}}</button> -->
+     
+  </view>
+     <!-- <button bindtap='Four_charge' class='text_charge' id='0.02'>免费1分钟</button>        -->
+  <view class='charge' style='margin:10px;'>
+    <text class='vip_c' style='font-size:22px;'>{{vip}}</text>
+    <text class='vip_one'>{{vip_one}}</text>
+    <text class='vip_one'>{{vip_two}}</text>
+    <text class='vip_one'>{{vip_three}}</text>
+  </view>
+  <view class='copyright'>
+    <text>{{copyright}}</text>
+  </view>
+  <view class='vip_charge' style='display:{{ f_none}}'>
+    <!-- <text class='vip_charge_a'>非会员，无法享受平台会员优惠</text>
+    <view class='vip_charge_b'>
+      <button bindtap='vip_charge' style='height:30px;font-size:12px; background-color: #fff;color:#344047;line-height:30px;' id='{{vip_charge}}'>加入会员</button>
+    </view> -->
+    <view style='padding:2px 5px;'>
+      <view style='color:#fff;'><text>本周晚21:00-03：00，系统将随机打开设备，免费给用户体验，一起去寻找点亮的插板吧！！！</text><text style='float:right;margin-right:20px;'>用户免费体验周</text></view>
+      <view style='color:#fff;font-size:12px;'></view>
+    </view>
+  </view>
+</view>

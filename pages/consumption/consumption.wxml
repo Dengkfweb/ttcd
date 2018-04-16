@@ -1,0 +1,10 @@
+<view>
+  <view class="list" wx:for="{{newList}}" wx:for-index="index" wx:for-item="item">
+    <view class="timeStamp">{{item.timeStamp}}</view>
+    <view class="numBering">{{item.numBering}}</view>
+    <view class="summary">
+      <view class="chargingTime">{{item.chargingTime}}</view>
+      <view class="money">{{item.money}}</view>
+    </view>
+  </view>
+</view>

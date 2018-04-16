@@ -1,0 +1,6 @@
+<!-- <view style='width:100%;height:{{view._height}}px;background:#fff;'>
+  <image style='width:100%;height:100%;border-radius:10px;' src='{{ind_url}}'></image>
+</view> -->
+ <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" circles="{{circles}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: {{view.Height}}px;">
+</map> 
+

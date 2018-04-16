@@ -1,0 +1,61 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/repair_tab/repair_tab",
+    
+   "pages/personal_center/personal_center",
+    "pages/count_down/count_down",
+    "pages/bar/bar",
+    
+    "pages/scan/scan",
+    
+    "pages/scanvip/scanvip",
+    
+    
+    "pages/ceshi/ceshi",
+    "pages/webview/webview",
+    
+    "pages/recharge/recharge",
+    
+    
+    
+
+    "pages/recharge_scan/recharge_scan",
+    
+    
+    "pages/mine/mine",
+    "pages/details/details",
+    
+    "pages/consumption/consumption",
+    
+
+    
+    
+    
+    "pages/pay/pay",
+    
+    "pages/personal_center_vip/personal_center_vip",
+    
+    
+   
+    
+    
+    "pages/succ/succ",
+    "pages/timing/timing",
+    
+    "pages/refund/refund",
+    "pages/agreement/agreement",
+    
+    
+    "pages/phone/phone"
+   
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "天天充电",
+    "navigationBarTextStyle":"black"
+  }
+}

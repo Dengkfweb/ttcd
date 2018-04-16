@@ -1,0 +1,11 @@
+<!--pages/details/details.wxml-->
+<view class='details_list' wx:for="{{consumptionList}}" wx:for-item="value">
+    <view class='success'>
+        <view class='submit'>{{value.submit}}</view>
+        <view class='paymentMoney'>{{value.paymentMoney}}</view>
+    </view>
+    <view class='source'>
+        <view class='paymentTime'>{{value.paymentTime}}</view>
+
+    </view>
+</view>

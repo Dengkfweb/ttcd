@@ -1,0 +1,45 @@
+<view class='bg_index'>
+  <view class='userinfo'>
+    <image class='userinfo-avatar' src="{{HeadPortrait}}"></image>
+  </view>
+   <view class='userinfo'>
+    <text>{{nickName}}</text>
+  </view>
+  <view class='charge_btn' wx:for="{{vip_list}}" wx:for-index="index" wx:for-item="item">
+    <!-- <button bindtap='Fast_charge'class='text_charge' id='{{charge_first_a}}'>{{charge_first}}</button> -->
+    <button bindtap='Third_charge' class='text_charge' id='{{item.charge_three_a}}'>{{item.charge_three}}</button>
+            
+  </view>
+   <!-- <button bindtap='Third_charge' class='text_charge' id='0.02'>免费1分钟</button>     -->
+  <view class='charge'>
+    <text class='vip_c'>{{vip}}</text>
+    <text class='vip_one'>{{vip_one}}</text>
+    <text class='vip_one'>{{vip_two}}</text>
+    <text class='vip_one'>{{vip_three}}</text>
+  </view>
+  <view class='vip_charge' style='display:{{ f_none}}'>
+     <text class='vip_charge_a'>非会员，无法享受平台会员优惠</text>
+    <view class='vip_charge_b'>
+      <button bindtap='vip_charge' style='height:30px;font-size:12px; background-color: #fff;color:#344047;line-height:30px;' id='{{vip_charge}}'>加入会员</button>
+    </view> 
+    <!-- <view style='padding:2px 5px;'>
+      <view style='color:#fff;'><text>本周晚21:00-03：00，系统将随机打开设备，免费给用户体验，一起去寻找点亮的插板吧！！！</text><text style='float:right;margin-right:20px;'>用户免费体验周</text></view>
+      <view style='color:#fff;font-size:12px;'></view>
+    </view> -->
+  </view>
+</view>
+<modal class="modal" style="display:{{modal}}" hidden="{{hidden}}" no-cancel bindconfirm="modalOk" confirmText="加入会员">
+  <view style='width:100%;height:40px;' bindtap='cancel'><text class='dew_right'>×</text></view>
+  <!-- <view class="dew">
+    <image style='width:150px;height:109px;margin-left:50px;margin-bottom:40px;' src='https://www.ihuanmei.com/image/lab_11.png'></image>
+  </view> -->
+  <view class="dew" style='color:red;'>  
+    <view style='font-weight:400;margin-bottom:20px;'><text style='font-size:22px;'>会员充电免费啦!</text></view>
+  </view>
+  <view class='dew_1'>
+    <view style='margin:5px 0;color:#333;'><text>1、加入会员首月免费充电\r</text></view>
+    <view style='margin:5px 0 15px;color:#333;'><text>2、加入会员充电最低至0.33元/小时\r</text></view>
+  </view>
+</modal>
+
+

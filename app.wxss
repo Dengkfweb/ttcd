@@ -1,0 +1,135 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.charge{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px 80px 20px;
+  color: #fff;
+}
+.text_charge{
+  margin: 25px 0;
+  background: #ff815d;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.vip_c{
+  line-height: 40px;
+}
+.vip_one{
+  font-size: 14px;
+  line-height: 30px;
+  margin-left: 5px;
+}
+.charge_btn{
+  flex-direction: column;
+  margin: 0rpx 150rpx 0 150rpx;
+}
+.vip_charge{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background: #344047;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  left: 0;
+  
+}
+.vip_charge_a{
+  font-size: 14px;
+  color: #fff;
+  margin: 0 30px;
+}
+.vip_charge_b{
+  font-size: 14px;
+  color: #fff;
+  margin: 0 5px;
+}
+page {
+  width: 100%;
+  height: 100%;
+  font-family: "微软雅黑";
+  font-size: 0.7em;
+  background-color: #eee;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+} 
+.copyright{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  font-size: 0.8em;
+
+  background: -webkit-linear-gradient(left, #12c0b2, #12c0b2); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #12c0b2, #12c0b2); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #12c0b2, #12c0b2); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #12c0b2, #12c0b2); /* 标准的语法（必须放在最后） */
+}
+.userinfo-a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vip_bg{
+  position: relative;
+}
+.vip_bgimg{
+  position: absolute;
+  left: 15rpx;
+  top: 15rpx;
+  width: 148rpx;
+  height: 148rpx;
+} 
+.vip_bgimg_i{
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,22 @@
+/* pages/phone/phone.wxss */
+.my_phone{
+  display: flex;
+  padding: 10px 0;
+  margin: 0 40px;
+  align-items: center;
+}
+.phone_input{
+  border: 1px solid #E6E6FA;
+  padding: 5px 10px;
+  flex: 3;
+  margin: 0 20px;
+  border-radius: 10px;
+}
+.my_text{
+  flex: 1;
+}
+.my_btn{
+  font-size: 12px;
+  flex: 1;
+  height: 30px;
+}

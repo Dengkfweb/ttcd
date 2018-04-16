@@ -1,0 +1,27 @@
+<!--pages/homepage/homepage.wxml-->
+<view>
+  <view class='userinfo-a'>
+    <view class='vip_bg'>
+      <image class='log_img' src='http://www.ihuanmei.com/images/tt_log.png'></image>
+    </view>
+  </view>
+  <view class='userinfo-a'>
+    <view class='vip_bg'>
+      <image class='ddclog_img' src='http://www.ihuanmei.com/images/ddc_log.png'></image>
+    </view>
+  </view>
+  <view class='userinfo-a'>
+    <view class='vip_bg'>
+      <image bindtap='scan_code' class='dj_log' src='http://www.ihuanmei.com/images/dj_log.png'></image>
+    </view>
+  </view>
+  <view class='userinfo-a'>
+    <view class='vip_bg' style='padding:50px 0'>
+      <button bindtap='personal' class='gr_button'>个人中心</button>
+    </view>
+  </view>
+  <!-- <view class='copyright' style='color:#000;background:#27c594;'>
+    <view style='font-size:12px;'><text> </text><text style='color:#fff;' bindtap='agreement'> 《用户协议使用》</text></view>
+    <text>{{copyright}}</text>
+  </view> -->
+</view>

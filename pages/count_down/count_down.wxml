@@ -1,0 +1,35 @@
+<view class="bg_index">
+  <view class='userinfo'>
+    <view class='vip_bg'>
+      <image class='userinfo-avatar' src='{{avatarUrl}}'></image>
+     <view class='vip_bgimg'>
+      <image src='{{avatarUrl_vip}}' class='vip_bgimg_i'></image>
+     </view>
+    </view>
+  </view>
+  <view class='userinfo'>
+    <text>{{nickName}}</text>
+  </view>
+  <view class='center'>
+    <text class='surplus'>剩余充电时间</text>
+    <text class="count_down">
+      {{clock}} {{micro_second}}
+    </text>
+    
+  </view>
+  
+  <view class="mm">
+    <view class="cc">
+            <view class="top"></view>
+        <view class="filler animation"></view>
+    </view>
+</view>
+<view class='charge_btn'>
+
+     <button bindtap='fault' style='background:#fff;color:#0cc1b8;' class='text_charge'>故障报修</button> 
+            
+  </view>
+<view class='copyright'>
+  <text>{{copyright}}</text>
+</view>
+</view>

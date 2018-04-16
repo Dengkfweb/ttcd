@@ -1,0 +1,34 @@
+<view class="bg_index">
+  <view class='userinfo'>
+    <view class='vip_bg'>
+      <image class='userinfo-avatar' src='{{HeadPortrait}}'></image>
+     <view class='vip_bgimg'>
+      <image src='http://www.ihuanmei.com/image/vip_bg.png' class='vip_bgimg_i'></image>
+     </view>
+    </view>
+  </view>
+  <view class='userinfo'>
+    <text>{{nickName}}</text>
+  </view>
+  <view class='center'>
+    <text class='surplus'>充电时长</text>
+    <text class="count_down">
+      {{time}} 
+    </text>
+    
+  </view>
+  
+  <view class="mm">
+    <view class="cc">
+            <view class="top"></view>
+        <view class="filler animation"></view>
+    </view>
+</view>
+<view class='copyright'>
+  <text>{{copyright}}</text>
+</view>
+<view class='text_wid_con'>
+  <button bindtap='over_charge' class='text_charge text_wid' id='{{id}}'><text class='vip_one'>结束充电</text></button>
+  
+</view>
+</view>

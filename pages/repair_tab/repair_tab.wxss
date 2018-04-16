@@ -1,0 +1,31 @@
+/* pages/home/home.wxss */
+page{
+  background: #fff;
+  font-size: 1rem;
+}
+.repair{
+  margin: 0 30px;
+  
+}
+.remarks_phone{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2px 8px;
+  margin-left: 20px;
+
+}
+.remarks{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 30px 10px;
+  padding: 10px;
+}
+.radio{
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  margin: 30px 10px;
+}
+.remarks_submit{
+  margin: 0 130px;
+}

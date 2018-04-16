@@ -1,0 +1,13 @@
+<view>
+  <view style='margin-top:30%;'></view>
+  <view class='my_phone'>
+    <text class='my_text'>{{my_phone}}</text>
+    <input type='number' class='phone_input' style='margin-left:10px;'></input>
+    
+  </view>
+  <view class='my_phone'>
+    <text class='my_text'>{{my_code}}</text>
+    <input type='number' class='phone_input' style='flex:2;'></input>
+    <button class='my_btn'>{{my_btn}}</button>
+  </view>
+</view>

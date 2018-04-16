@@ -1,0 +1,44 @@
+<!--pages/mine/mine.wxml-->
+ <view>
+  <view class='userinfo-a'>
+    <view class='vip_bg'>
+      <image class='userinfo-avatar' src='{{avatarUrl}}'></image>
+     <view class='vip_bgimg'>
+      <image src='{{avatarUrl_vip}}' class='vip_bgimg_i'></image>
+     </view>
+    </view>
+  </view>
+   <view class='userinfo'>
+    <text style='color:#888;'>{{nickName}}</text>
+  </view>
+  <view class='my_list'>
+    <view class='vip_list'>
+      <view class='left money_m'><text class='left' style='font-size:12px;margin:5px 10px;'>{{my_balance}}</text><text style='font-size:18px;font-weight:800;color:#000;margin:0 10px;'>{{my_money}}</text></view>
+      <view class='right'><text class='right' bindtap='Recharge_jump'>充值</text></view>
+    </view>
+    <view class='vip_list' bindtap='consumption'>
+      <view class='left'><text class='left'>{{my_consumption}}</text></view>
+      <view class='right'><text class='right'>{{my_consumption_btn}}</text></view>
+    </view>
+    <view class='vip_list' bindtap='details'>
+      <view class='left'><text class='left'>{{my_recharge}}</text></view>
+      <view class='right'><text class='right'>{{my_recharge_btn}}</text></view>
+    </view>
+    <view class='vip_list'>
+      <view class='left'><text class='left'>{{my_card}}</text></view>
+      <view class='right'><text class='right'>{{my_card_btn}}</text></view>
+    </view>
+    <view class='vip_list' bindtap='agreement'>
+      <view class='left'> <text class='left'>{{agreement}}</text></view>
+      <view class='right'><text class='right'>{{agreement_ck}}</text></view> 
+    </view>
+    <view class='vip_list' bindtap='refund'>
+      <view class='left'><text class='left'>我是会员</text></view>
+      <view class='right'> <text id='{{refund}}' class='right'>{{refund}}</text></view>
+    </view>
+  </view>
+  
+  <view class='copyright' style='color:#000;'>
+    <text>{{copyright}}</text>
+  </view>
+ </view>

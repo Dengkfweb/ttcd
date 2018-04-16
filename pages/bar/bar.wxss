@@ -1,0 +1,57 @@
+page{
+  background: #344047;
+  color: #fff;
+}
+.bar{
+  margin: 50px;
+}
+.container {
+    width:30%;
+    margin:0 auto
+}
+
+.title {
+    background:#ccc;
+    color:#ccc;
+    padding:15px;
+    float:left;
+    position:relative;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -moz-border-radius-topleft:5px;
+    -moz-border-radius-bottomleft:5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px
+}
+.bar-unfill {
+    height:15px;
+    display:block;
+    background:#ccc;
+    width:100%;
+    border-radius:8px
+}
+.bar-fill {
+    height:15px;
+    display:block;
+    background:#45c9a5;
+    width:0;
+    border-radius:8px;
+    -webkit-transition:width .8s ease;
+    -moz-transition:width .8s ease;
+    transition:width .8s ease;
+    -webkit-animation:progressbar 7s infinite;
+    animation:progressbar 10s infinite
+}
+@keyframes progressbar {
+    from {
+        width:2%
+    }
+    to {
+        width:100%
+    }
+}
+.charge_bar{
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+}

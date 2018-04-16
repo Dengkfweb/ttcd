@@ -1,0 +1,39 @@
+/* pages/consumption/consumption.wxss */
+/* pages/zhima/zhima.wxss */
+page{
+  background: #fff;
+}
+.list{
+  width: 660rpx;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  padding-top: 20rpx;
+  padding-bottom: 15rpx;
+  font-family: "微软雅黑";
+  /* background-color: #ccc; */
+  font-size: 12px;
+  border-bottom: 1px solid #F0F0F0;
+}
+.summary{
+  padding-top: 15rpx;
+}
+.chargingTime{
+  float: left;
+}
+.money{
+  float: right;
+  padding-left: 120rpx;
+}
+.lists_nei{
+  padding-left: 20rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 1px solid #F0F0F0;
+}
+.timeStamp{
+  color: #847B7B;
+}
+.numBering{
+  color: #847B7B;
+}

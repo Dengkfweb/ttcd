@@ -1,0 +1,8 @@
+<view class="bar">
+  <view class="bar-unfill">
+      <view class="bar-fill"></view>
+  </view>
+  <view class="charge_bar">
+    <text>正在开启充电中(大约等待10秒钟)</text>
+  </view>
+</view>
